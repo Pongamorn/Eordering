@@ -1,0 +1,19 @@
+1 minute tracking - web based
+
+Next Step:27/9/2022
+
+1.ปรับ UI ตาม requirements MDT
+1.1เพิ่มการค้นหาจากเลขที่ PO (เพิ่ม Hint text /sensitive case ต้องพิมพ์ให้ถูกต้องครบ ดักข้อมูลจาก web ส่งให้ SAP)
+1.2เพิ่มข้อมูล Carrier Transport Order(เลขปอปึ๋ง)
+1.3เพิ่มข้อมูล Carrier Name
+1.4เพิ่มข้อมูล Carrier Tel.
+
+2.confirm UI & field for phase I-Done
+3.summarized requirements for vendor- Pending
+
+
+API = IT recommended
+SAP Committee presentation = ? when
+
+1st Presentation
+- 28/9/2022 

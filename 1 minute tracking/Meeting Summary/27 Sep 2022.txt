@@ -1,0 +1,54 @@
+1 minute tracking - 27/9/2022
+
+แสดงมูลค่าสินค้ารวม ก่อน Vat7% ตามเลขที่ Billing (Inv.)
+User management
+
+***กรณีลูกค้าเก่า****
+-Retail  จาก E-Ordering (API - Metro) 
+-MDT ต้อง generate ใหม่?
+-Sales Project ต้อง generate ใหม่?
+
+***กรณีลูกค้าใหม่****
+-Retail  สมัครใหม่ E-Ordering ส่งมาทาง 1 minute
+-MDT ต้อง generate ใหม่?
+-Sales Project ต้อง generate ใหม่?
+
+***Salesman***
+-Retail  นำข้อมูลจาก E-Ordering (API - Metro) 
+-MDT ต้อง generate ใหม่? (Email confirmed )
+-Sales Project ต้อง generate ใหม่? (Email confirmed )
+
+***รับค่า DO***
+SO>DO>Shipment
+*กรณีที่ไม่มี Shipment ให้แสดง DO
+*กรณีที่ไม่มี DO จะไม่โชว์ Item
+*1 DO = 1 Shipment*
+
+ข้อความจะจัดส่งภายใน: 
+Checkin Date+Days 3 days
+----------------------
+Userต้องการเพิ่ม SAP Field
+1. ราคาสินค้ารวมทั้งหมดรวม VAT7% (checkin status-grand total value)
+2.DO Created Date
+3.DO number
+----------------------
+คุณเปิ้ล+คุณฟิ๊ก ต้อง accept design ภายในวันศุกร์ 30/9/2022
+พี่กีนำ design ไปสอบถามร้านค้า ภายในวันศุกร์ 30/9/2022
+-------------
+NEXT Step 4/10/2022
+Summarized ข้อมูลทั้งหมดเพื่อส่งให้ SAP ไปส่งให้ Vendor
+
+
+29/9/2022
+-1 shipment = Multiple bill (grand total)
+- ค้างที่ field Quotation ref no.
+- ค้าง วันที่ DO
+
+NEXT action
+- confirm design
+- summarize data for SAP
+
+30/9/2022
+- แสดงเฉพาะ DO ไม่ต้องแสดงวันที่ของเลข DO
+
+

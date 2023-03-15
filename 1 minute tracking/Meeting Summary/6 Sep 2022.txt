@@ -1,0 +1,31 @@
+1 minute tracking - web based
+
+แก้ไขรหัสการจัดส่งเป็น: shipment no.
+เพิ่ม credit status: b / non-b
+web รับค่าเป็น sales unit
+เพิ่มหน่วย unit
+จำนวนเป็น quantity sales unit ( d/o )
+เพิ่ม reject status (ยกเลิก)
+เพิ่ม free goods ( X value)
+แสดงจำนวนที่สั่งซื้อ - จำนวนที่ reject -web ต้องทำการคำนวนและแสดงผลจำนวนที่เหลือ 
+-กรณีที่จำนวนส่งเป็น 0 ต้องแสดงสถานะ text
+-กรณีที่ยกเลิกทั้งบิล so ให้แสดงข้อมูลด้วยว่าบิลยกเลิก
+
+Next Step:13/9/2022
+1.ปรับ UI
+2.confirm UI & field for phase I
+3.summarized requirements for vendor
+
+Calculation Logic 
+1.Order Q = Sales Order
+2.เช็ค reject
+3.เช็ค back order
+
+API = IT recommended
+SAP Committee presentation = ? when
+
+clinic meeting
+- 23/9/2022 : 16.00-16.30
+
+1st Presentation
+- 28/9/2022 
